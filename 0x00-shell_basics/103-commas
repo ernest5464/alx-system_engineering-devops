@@ -1,3 +1,2 @@
 #!/bin/bash
-ls -1Ap | sort -k1.1d -k1.2 | awk '{printf "%s,",$0},
-END {print ""}' 
+ls -xamp
